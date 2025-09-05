@@ -1,0 +1,13 @@
+{
+  "name": "recipe-builder",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.15.0",
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -C apps/web dev",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "fmt": "pnpm -r fmt"
+  }
+}

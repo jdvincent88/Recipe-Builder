@@ -1,0 +1,14 @@
+
+# dependencies
+node_modules
+.pnpm-store
+# builds
+.next
+dist
+out
+# env
+.env
+.env.local
+# db
+prisma/dev.db
+prisma/dev.db-journal
